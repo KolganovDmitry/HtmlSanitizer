@@ -33,6 +33,7 @@
 		<Nullable>enable</Nullable>
 		<WarningsAsErrors>nullable</WarningsAsErrors>
 		<NoWarn>$(NoWarn);IDE0130;SYSLIB1045</NoWarn>
+		<Configurations>Debug;Release;Test</Configurations>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(CI)' == 'True'">
